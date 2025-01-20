@@ -1,13 +1,131 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plantin Moretus</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plantin Moretus</title>
+  <link rel="stylesheet" href="https://use.typekit.net/zkb1ajs.css">
+</head>
+
+<body>
+  <nav class="navbar flex-position">
+    <img class="navbar__logo" src="src/logo/logo-plantin-moretus.avif" height="95" alt="">
+    <div class="navbar__btns">
+      <div>
+        <a class="navbar__link navbar__cta--style" href="#">Koop tickets</a>
+      </div>
+      <div class="navbar__languages">
+        <a class="navbar__link navbar__languages--item" href="">
+          Nl
+        </a>
+        <span class="languages-item-line"></span>
+        <a class="navbar__link navbar__languages--item" href="">
+          Fr
+        </a>
+        <span class="languages-item-line"></span>
+        <a class="navbar__link navbar__languages--item" href="">
+          Eng
+        </a>
+      </div>
+    </div>
+  </nav>
+  <main class="grid">
+    <div class="main__hero">
+      <picture class="main__bg">
+        <img sizes="(min-width: 1620px) 1535px, (min-width: 340px) 100vw, calc(-5750vw + 18720px)" srcset="
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_350.avif 350w,
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_723.avif 723w,
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_958.avif 958w,
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_1173.avif 1173w,
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_1357.avif 1357w,
+      src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_1535.avif 1535w" src="src/poort-img/poort-museumFlowers_czgfqf_c_scale,w_1535.avif" alt="">
+      </picture>
+      <div class="main__content flex-position">
+        <div class="main__group">
+          <div class="main__text">
+            <p class="main__title main__title--education">Lage educatie<br> buiten Europa,</p>
+            <p class="main__title main__title--protests">Protesten<br> binnen Europa,</p>
+          </div>
+          <div class="main__img">
+            <picture>
+              <img sizes="339px" class="main__img" srcset="
+          src/plantin-img/ChristophePlantin_jciroc_c_scale,w_350.avif 350w,
+          src/plantin-img/ChristophePlantin_jciroc_c_scale,w_468.avif 468w,
+          src/plantin-img/ChristophePlantin_jciroc_c_scale,w_484.avif 484w" src="src/plantin-img/ChristophePlantin_jciroc_c_scale,w_484.avif" alt="">
+            </picture>
+          </div>
+        </div>
+      </div>
+      <p class="main__title main__title--question flex-position">Was Plantin de sleutel voor een oplossing?</p>
+    </div>
+  </main>
+
+  <section class="section__grid section__bg">
+    <div class="section__content">
+      <div class="section__info">
+        <p class="section__text">In de <strong>15de eeuw</strong> werden boeken <strong>vooral<br>
+            handgeschreven.</strong></p>
+
+        <p class="section__text">Productie daarvan was dus <strong>zeer schaars.</strong></p>
+      </div>
+      <div class="section__imagegroup">
+        <picture class="section__img">
+          <img sizes="723px" srcset="
+          src/book-writer-img/book-writer_w4lpi9_c_scale,w_220.avif 220w,
+          src/book-writer-img/book-writer_w4lpi9_c_scale,w_759.avif 759w,
+          src/book-writer-img/book-writer_w4lpi9_c_scale,w_851.avif 851w" src="src/book-writer-img/book-writer_w4lpi9_c_scale,w_851.avif" height="880" alt="">
+        </picture>
+        <div class="section__printgroup">
+          <div class="section__decor">
+            <picture>
+              <img sizes="387px" srcset="
+          src/plume-img/plume_vyf8ee_c_scale,w_350.avif 350w,
+          src/plume-img/plume_vyf8ee_c_scale,w_580.avif 580w" height="450" src="src/plume-img/plume_vyf8ee_c_scale,w_580.avif" alt="">
+            </picture>
+            <picture>
+              <img sizes="(max-width: 638px) 100vw, 638px" srcset="
+              src/print-img/pergament-print_koshxv_c_scale,w_350.avif 350w,
+              src/print-img/pergament-print_koshxv_c_scale,w_596.avif 596w,
+              src/print-img/pergament-print_koshxv_c_scale,w_638.avif 638w" src="src/print-img/pergament-print_koshxv_c_scale,w_638.avif" height="800" alt="">
+            </picture>
+            <p class="section__text section__pergament">Maar in de <strong>16de eeuw</strong> begonnen<br>
+              er steeds <strong>meer drukpersen</strong><br>
+              te komen <strong>in Europa.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <picture>
+        <img sizes="(max-width: 1920px) 100vw, 1920px" srcset="
+    src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_460.avif 460w,
+    src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_1098.avif 1098w,
+    src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_1568.avif 1568w,
+    src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_1828.avif 1828w,
+    src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_1920.avif 1920w" src="src/europ-map-img/european-map-pinned_uwueu0_c_scale,w_1920.avif" class="article__europe" alt="">
+      </picture>
+    </div>
+  </section>
+
+  <article class="articlegroup">
+    <div class="article__bookcontent">
+      <p class="article__title">De 16de eeuw</p>
+      <p class="article__title article__title--drukpersen">Drukpersen</p>
+
+      <div class="article__printpress">
+        <picture>
+          <img sizes="(max-width: 621px) 100vw, 621px" srcset="
+          src/book-pile-img/pile3books_em4kve_c_scale,w_350.avif 350w,
+          src/book-pile-img/pile3books_em4kve_c_scale,w_523.avif 523w,
+          src/book-pile-img/pile3books_em4kve_c_scale,w_621.avif 621w" src="src/book-pile-img/pile3books_em4kve_c_scale,w_621.avif" height="470" class="article__bookimg" alt="">
+        </picture>
+      </div>
+    </div>
+  </article>
+  <div class="article__line"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

@@ -118,7 +118,6 @@ const init = () => {
       start: 'top center',
       end: 'bottom bottom',
       scrub: true,
-      markers: true,
     },
   });
 };
